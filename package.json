@@ -1,0 +1,16 @@
+{
+  "name": "pv-monitor-cloud",
+  "version": "1.0.0",
+  "description": "光伏储能数据采集云平台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "better-sqlite3": "^11.6.0",
+    "mqtt": "^5.10.0",
+    "cors": "^2.8.5"
+  }
+}
