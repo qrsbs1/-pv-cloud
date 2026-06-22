@@ -8,9 +8,12 @@
     "dev": "node --watch server.js"
   },
   "dependencies": {
-    "express": "^4.21.0",
     "better-sqlite3": "^11.6.0",
-    "mqtt": "^5.10.0",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mqtt": "^5.10.0"
+  },
+  "devDependencies": {
+    "nexe": "^5.0.0-beta.4"
   }
 }
